@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7e8b4;
+}
+
+.heading{
+    display: flex;
+    /* width: 50vw; */
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    background-color: #f4c0ba;
+    /* margin-left: 25vw; */
+}
+
+#display{
+    height: 60px;
+    width: 210px;
+    margin-left: 6px;
+    margin-top: 2px;
+    margin-right: 5px;
+    background-color: #585656;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 7px;
+}
+.calculatorContainer{
+    border: 7px solid rgb(22, 22, 22);
+    margin-left: 42vw;
+    margin-top: 20vh;
+    padding: 5px;
+    background-color: #2b2727;
+    width: 220px;
+    height: 310px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-top: 5px;
+    gap: 3px;
+    font-weight: 50px;
+    
+}
+
+.btnItems{
+    border-radius: 70px;
+    border: none;
+    background-color: #494848;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.btnItems:hover{
+    background-color: #615f5f;
+}
+
+.btnItems:onclick{
+    background-color: #7c7979;
+}
